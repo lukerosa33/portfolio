@@ -25,3 +25,73 @@ footer {
         font-size: 18px;
     }
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button,
+.nav-button.active {
+    margin-left: 20px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-button.active{
+    background-color: lightgray;
+}
+
+.nav-button:hover {
+    background-color: darkgrey;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
