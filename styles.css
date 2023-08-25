@@ -117,11 +117,12 @@ body {
 
 .content-window {
     max-width: 300px + 40px; /* width of project card plus padding */
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     background-color: #fff;
+    margin-top: 40px;
 }
 
 /* Make the navbar fixed */
@@ -134,3 +135,6 @@ header {
 }
 
 /* Add a margin to the main content to account for the fixed navbar */
+main {
+    margin-top: 40px; /* adjust this based on your navbar's height */
+}
