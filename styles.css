@@ -135,5 +135,5 @@ header {
 
 /* Add a margin to the main content to account for the fixed navbar */
 main {
-    margin-top: 80px; /* adjust this based on your navbar's height */
+    margin-top: 300px; /* adjust this based on your navbar's height */
 }
