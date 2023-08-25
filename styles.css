@@ -111,8 +111,8 @@ body {
 }
 
 .content-window {
-    max-width: 300px + 40px; /* width of project card plus padding */
-    margin: 20px auto;
+    max-width: 300px;
+    margin: 20px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
